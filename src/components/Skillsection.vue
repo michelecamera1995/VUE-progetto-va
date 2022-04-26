@@ -4,9 +4,7 @@
 
 <script>
 export default {
-name: 'Service_section',
-  components: {
-  }
+name: 'Skillsection',
 }
 </script>
 

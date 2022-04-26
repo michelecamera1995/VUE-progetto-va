@@ -4,9 +4,7 @@
 
 <script>
 export default {
-name: 'Trusted_section',
-  components: {
-  }
+name: 'Servicesection',
 }
 </script>
 

@@ -1,19 +1,29 @@
 <template>
   <div id="app">
     <Header/>
+    <Servicesection/>
+    <Skillsection/>
+    <Trustedsection/>
+    <Footer/>
 
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
-import Service_section from "@/components/Service_section.vue";
+import Servicesection from "@/components/Servicesection.vue";
+import Skillsection from "@/components/Skillsection.vue";
+import Trustedsection from "@/components/Trustedsection.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: 'App',
   components: {
     Header,
-    Service_section
+    Servicesection,
+    Skillsection,
+    Trustedsection,
+    Footer
   }
 }
 </script>

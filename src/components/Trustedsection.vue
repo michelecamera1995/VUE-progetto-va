@@ -4,9 +4,7 @@
 
 <script>
 export default {
-name: 'Skill_section',
-  components: {
-  }
+name: 'Trustedsection',
 }
 </script>
 
