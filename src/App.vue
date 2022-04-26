@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header/>
+    <Header :menu="menu"/>
     <Servicesection/>
     <Skillsection/>
     <Trustedsection/>
@@ -19,7 +19,7 @@ export default {
   name: 'App',
   data(){
     return{
-      menu : ['Home','About','Services','Journal','Contact']
+      menu : [{name: 'Home'},{name: 'About'},{name: 'Services'},{name: 'Journal'},{name: 'Contact'}]
     }
   },
   components: {
@@ -40,9 +40,21 @@ export default {
   box-sizing: border-box;
 }
 
-.container{
-  width: 1200px;
-  margin: 0 auto;
+*ul{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
 }
+
+.button{
+  padding: 10px 30px;
+  font-size: 15px;
+  color: #040543;
+  font-weight: bold;
+  cursor: pointer;
+	border-radius: 7px;
+}
+
+
 
 </style>
