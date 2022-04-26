@@ -55,6 +55,22 @@ export default {
   color: orange;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  height: 25px;
+  border-bottom: 1px solid white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .button {
   padding: 10px 30px;
   font-size: 0.8rem;
