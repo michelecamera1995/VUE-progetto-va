@@ -25,7 +25,8 @@ name: 'Header',
 
 #Header{
     height: 700px;
-    background-color: blue;
+    background-color: #0f1164;
+    background-image: url('@/assets/info-bg-2.svg');
      #Top-header{
           width: 100%;
           height: 120px;
