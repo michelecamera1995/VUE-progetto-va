@@ -5,7 +5,6 @@
     <Skillsection/>
     <Trustedsection/>
     <Footer/>
-
   </div>
 </template>
 
@@ -18,6 +17,11 @@ import Footer from "@/components/Footer.vue";
 
 export default {
   name: 'App',
+  data(){
+    return{
+      menu : ['Home','About','Services','Journal','Contact']
+    }
+  },
   components: {
     Header,
     Servicesection,
@@ -34,6 +38,11 @@ export default {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
 }
 
 </style>
