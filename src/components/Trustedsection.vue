@@ -118,7 +118,7 @@ export default {
       padding: 3% 3%;
       display: flex;
       width: 45%;
-      background-color: #000545;
+      background-color: #0d1267;
       font-size: 0.9rem;
       h4 {
         font-size: 2.4rem;
