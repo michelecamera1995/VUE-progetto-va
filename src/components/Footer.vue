@@ -1,7 +1,8 @@
 <template>
   <div class="bg-footer">
+    <!--top-footer-->
     <div id="top-footer" class="container">
-      <!--Header Left-->
+      <!--Header footer Left-->
       <div id="left-Top-footer">
         <img src="@/assets/logo.png" alt="" />
         <ul>
@@ -13,7 +14,7 @@
         </ul>
       </div>
       <!---->
-      <!--Header Right-->
+      <!--Header footer Right-->
       <div id="right-Top-footer">
         <p>
           <i class="fa-solid fa-headphones"></i>
@@ -23,6 +24,7 @@
       </div>
       <!---->
     </div>
+    <!--botoom-footer-->
     <div id="bottom-footer" class="container">
       <h2>
         Indipendent professional who works remotely to help with your business.

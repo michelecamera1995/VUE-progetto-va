@@ -1,5 +1,6 @@
 <template>
   <div class="container" id="trusted">
+    <!--brands-->
     <div id="brands">
       <h6>Trusted by these amazing brands</h6>
       <div id="brands-img">
@@ -10,6 +11,7 @@
         <img src="@/assets/brand-7-200x67.jpg" alt="brand1" />
       </div>
     </div>
+    <!--top-trusted-->
     <div id="top-trusted">
       <div id="top-trusted-section">
         <div id="Left-top-trusted">
@@ -28,6 +30,7 @@
         </div>
       </div>
     </div>
+    <!--bottom-trusted-->
     <div id="bottom-trusted">
       <div class="skill-card">
         <h4>1.</h4>

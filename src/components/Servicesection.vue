@@ -1,7 +1,9 @@
 <template>
   <div class="container">
+    <!--service-section-->
     <div id="service-section">
       <h6>Available services</h6>
+      <!--top-service-section-->
       <div id="top-service-section">
         <div class="service-card">
           <h3>Answering phone calls</h3>
@@ -28,6 +30,7 @@
           </p>
         </div>
       </div>
+      <!--bottom-service-section-->
       <div id="bottom-service-section">
         <div id="Left-bottom-service">
           <img src="@/assets/info-5-2x-600x648.png" alt="info" />

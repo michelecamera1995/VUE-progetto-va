@@ -1,11 +1,14 @@
 <template>
   <div class="container" id="skillsection">
+    <!--skillsection-->
     <div id="skillsection">
+      <!--top-skillsection-->
       <div id="top-skillsection">
         <p>Donec est tristique eu massa pellentesque</p>
         <h2>Higly-skilled, indipendent porfessional freelancer.</h2>
         <button class="button bt-or">What is a VA exactly?</button>
       </div>
+      <!--bottom-skillsection-->
       <div id="bottom-skillsection">
         <div class="skill-card">
           <h4>1.</h4>
