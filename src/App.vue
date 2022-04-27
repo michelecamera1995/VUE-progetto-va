@@ -4,7 +4,7 @@
     <Servicesection />
     <Skillsection />
     <Trustedsection />
-    <Footer />
+    <Footer :menu="menu" />
   </div>
 </template>
 
@@ -45,37 +45,30 @@ export default {
   padding: 0px;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Montserrat", sans-serif;
 }
-
 *ul {
   list-style: none;
   text-decoration: none;
   display: flex;
 }
-
 *h6 {
   color: orange;
 }
-
 a {
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: none;
   color: white;
   height: 25px;
   border-bottom: 1px solid white;
 }
-
 a:visited {
   text-decoration: none;
   color: white;
 }
-
 .button {
   padding: 10px 30px;
   font-size: 1rem;
@@ -84,12 +77,10 @@ a:visited {
   cursor: pointer;
   border-radius: 7px;
 }
-
 .bt-or {
   background-color: #f86635;
   color: white;
 }
-
 .container {
   width: 1200px;
   margin: 0 auto;
