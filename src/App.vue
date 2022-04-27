@@ -14,6 +14,7 @@ import Servicesection from "@/components/Servicesection.vue";
 import Skillsection from "@/components/Skillsection.vue";
 import Trustedsection from "@/components/Trustedsection.vue";
 import Footer from "@/components/Footer.vue";
+import "@fontsource/montserrat";
 
 export default {
   name: "App",
@@ -45,6 +46,10 @@ export default {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 *ul {
   list-style: none;
   text-decoration: none;
@@ -73,7 +78,7 @@ a:visited {
 
 .button {
   padding: 10px 30px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #60639b;
   font-weight: bold;
   cursor: pointer;
