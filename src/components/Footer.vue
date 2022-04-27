@@ -15,7 +15,10 @@
       <!---->
       <!--Header Right-->
       <div id="right-Top-footer">
-        <p>1.800.123.4567</p>
+        <p>
+          <i class="fa-solid fa-headphones"></i>
+          1.800.123.4567
+        </p>
         <button class="button">Get a free consultation!</button>
       </div>
       <!---->
