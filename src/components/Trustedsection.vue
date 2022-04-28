@@ -93,7 +93,6 @@ export default {
       align-items: center;
       h2 {
         margin-top: 70px;
-        font-size: 40px;
         text-align: center;
       }
       p {
