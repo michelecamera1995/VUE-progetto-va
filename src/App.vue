@@ -15,7 +15,6 @@ import Skillsection from "@/components/Skillsection.vue";
 import Trustedsection from "@/components/Trustedsection.vue";
 import Footer from "@/components/Footer.vue";
 import "@fontsource/montserrat";
-import "@fortawesome/fontawesome-svg-core";
 
 export default {
   name: "App",
@@ -53,6 +52,9 @@ body {
   list-style: none;
   text-decoration: none;
   display: flex;
+}
+*p {
+  font-size: 0.9rem;
 }
 *h6 {
   color: orange;
