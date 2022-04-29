@@ -93,7 +93,7 @@ export default {
 
       h2 {
         margin-top: 70px;
-        font-size: 40px;
+        font-size: 1.9rem;
         text-align: center;
       }
       p {

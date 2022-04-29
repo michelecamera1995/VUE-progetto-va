@@ -64,7 +64,7 @@ export default {
     h2 {
       display: flex;
       justify-content: center;
-      font-size: 2.5rem;
+      font-size: 1.9rem;
       margin: 50px 0;
     }
   }
